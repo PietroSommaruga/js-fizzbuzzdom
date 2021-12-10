@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.output {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* do le dimensioni al div che andrò ad inserire in output */
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* creo le classi custom per i diversi box */
+.tre {
+    background-color: rgb(122, 245, 7);
+}
+
+.cinque {
+    background-color: rgb(183, 26, 231);
+}
+
+.numero {
+    background-color: rgb(247, 7, 7);
+}
+
+.tre-cinque {
+    background-color: blue;
+}
